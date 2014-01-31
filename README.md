@@ -1,19 +1,9 @@
-# Twitter Bootstrap for Rails 3.1 Asset Pipeline
+# Twitter Bootstrap 3.1.0 for Rails 3.1+
 Bootstrap is a toolkit from Twitter designed to kickstart development of webapps and sites. It includes base CSS and HTML for typography, forms, buttons, tables, grids, navigation, and more.
 
-twitter-bootstrap-rails project integrates Bootstrap CSS toolkit for Rails 3.1 Asset Pipeline (Rails 3.2 supported)
+twitter-bootstrap-rails project integrates Bootstrap CSS toolkit for the Rails asset pipeline.
 
-[![Gem Version](https://badge.fury.io/rb/twitter-bootstrap-rails.png)][gem]
-[![Build Status](https://secure.travis-ci.org/seyhunak/twitter-bootstrap-rails.png?branch=master)][travis]
-[![Dependency Status](https://gemnasium.com/seyhunak/twitter-bootstrap-rails.png?travis)][gemnasium]
-[![Code Climate](https://codeclimate.com/github/seyhunak/twitter-bootstrap-rails.png)][codeclimate]
-[![Coverage Status](https://coveralls.io/repos/seyhunak/twitter-bootstrap-rails/badge.png?branch=master)][coveralls]
-
-[gem]: https://rubygems.org/gems/twitter-bootstrap-rails
-[travis]: http://travis-ci.org/seyhunak/twitter-bootstrap-rails
-[gemnasium]: https://gemnasium.com/seyhunak/twitter-bootstrap-rails
-[codeclimate]: https://codeclimate.com/github/seyhunak/twitter-bootstrap-rails
-[coveralls]: https://coveralls.io/r/seyhunak/twitter-bootstrap-rails
+Note that this project was forked from [seyhunak/twitter-bootstrap-rails](https://github.com/seyhunak/twitter-bootstrap-rails), and is different from the twitter-bootstrap-rails gem available on RubyGems.
 
 ## Screencasts
 #### Installing twitter-bootstrap-rails, generators, usage and more
@@ -198,21 +188,6 @@ This should appear inside _bootstrap_and_overrides *(based on you twitter-bootst
 @fontAwesomeTtfPath: "/assets/fontawesome-webfont.ttf";
 @fontAwesomeSvgPath: "/assets/fontawesome-webfont.svg#fontawesomeregular";
 @import "fontawesome";
-```
-
-If you would like to restore the default Glyphicons, inside the _bootstrap_and_overrides.css.less_ remove the FontAwesome declaration and uncomment the line:
-
-```less
-// Font Awesome
-// @fontAwesomeEotPath: asset-url("fontawesome-webfont.eot");
-// @fontAwesomeEotPath_iefix: asset-url("fontawesome-webfont.eot?#iefix");
-// @fontAwesomeWoffPath: asset-url("fontawesome-webfont.woff");
-// @fontAwesomeTtfPath: asset-url("fontawesome-webfont.ttf");
-// @fontAwesomeSvgPath: asset-url("fontawesome-webfont.svg#fontawesomeregular");
-// @import "fontawesome/font-awesome";
-
-// Glyphicons
-@import "twitter/bootstrap/sprites.less";
 ```
 
 ## Using Javascripts
@@ -660,49 +635,3 @@ for handling flash messages, even if those messages are blank. See https://githu
   <li>Leonid Shevtsov</li>
 </ul>
 
-## About Me
-Lead/ Senior Developer - Programmer @useful (Usefulideas) Istanbul / Turkey
-
-### Contact me
-Seyhun Akyürek - seyhunak [at] gmail com
-
-### Follow me
-<a href="http://zerply.com/seyhunak">
-<img width="110" height="40" src="http://zerply.com/img/welcomesteps/zerply_logo.png" />
-</a>
-
-(Twitter, Facebook, Linkedin, Google+, Github)
-
-http://zerply.com/seyhunak
-
-### Endorse me
-<a href="http://coderwall.com/seyhunak">
-<img src="http://api.coderwall.com/seyhunak/endorsecount.png" />
-</a>
-
-### Klout me
-<img src="https://addons.opera.com/media/extensions/55/14355/1.0.1-rev1/icons/icon_64x64.png"></img>
-
-Please +K my influence in Ruby on Rails on @klout
-
-http://klout.com/#/seyhunak
-
-
-### Want to donate?
-<img src="https://www.paypalobjects.com/en_US/i/logo/PayPal_mark_50x34.gif"></img>
-
-[Want to donate for my efforts? Show your love](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=W8ZLWQBREFP4U
- "Donate")
-
-
-## Thanks
-Twitter Bootstrap and all twitter-bootstrap-rails contributors
-http://twitter.github.com/bootstrap
-
-
-## License
-Copyright (c) 2012 Seyhun Akyürek
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
